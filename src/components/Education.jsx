@@ -21,7 +21,7 @@ export default function Education() {
                                 Atria Institute of Technology, Bengaluru
                             </p>
                             <p className="text-sm text-gray-400">
-                                2023 – 2025 | CGPA: 8.41
+                                2024 – 2026 | CGPA: 8.41
                             </p>
                         </div>
 
