@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const skills = {
-    Frontend: ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
-    Backend: ["Python", "Flask", "FastAPI", "Node.js"],
+    Frontend: ["HTML5", "Tailwind CSS", "JavaScript", "React native", "Bootstrap"],
+    Backend: ["Python", "Flask", "Java", "FastAPI", "Node.js"],
     Database: ["MySQL", "MongoDB", "SQLite"],
     "AI / ML": ["NumPy", "Pandas", "OpenCV", "TensorFlow", "PyTorch"],
     Tools: ["Git", "GitHub", "Postman", "VS Code"]

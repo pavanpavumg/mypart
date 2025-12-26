@@ -13,7 +13,7 @@ export default function Projects() {
     const projects = [
         // --- User's Original Projects ---
         {
-            title: "AI-Driven Personalized Fitness Coach",
+            title: "AI-Driven Image Analysis Personalized Fitness Coach",
             intro: "Real-time pose analysis for fitness coaching.",
             desc: "Real-time pose detection using OpenCV & MediaPipe with workout form validation to ensure correct exercise techniques and provide instant feedback.",
             skills: "Python | OpenCV | MediaPipe",
@@ -98,8 +98,8 @@ export default function Projects() {
                             whileTap={{ scale: 0.9 }}
                             animate={{ scale: filter === cat ? 1.1 : 1 }}
                             className={`px-4 py-2 rounded-full border transition font-medium ${filter === cat
-                                    ? "bg-blue-600 border-blue-500 text-white shadow-[0_0_12px_rgba(59,130,246,0.6)]"
-                                    : "border-slate-600 text-gray-300 hover:border-blue-400 hover:text-white"
+                                ? "bg-blue-600 border-blue-500 text-white shadow-[0_0_12px_rgba(59,130,246,0.6)]"
+                                : "border-slate-600 text-gray-300 hover:border-blue-400 hover:text-white"
                                 }`}
                         >
                             {cat}

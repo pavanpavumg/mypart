@@ -16,7 +16,7 @@ export default function Navbar() {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8">
-                    {["About", "Skills", "Projects", "Education", "Achievements", "Contact"].map(item => (
+                    {["About", "Skills", "Projects", "Certifications", "Education", "Achievements", "Contact"].map(item => (
                         <li key={item}>
                             <a href={`#${item.toLowerCase()}`} className="hover:text-blue-400">
                                 {item}
@@ -41,7 +41,7 @@ export default function Navbar() {
             {menuOpen && (
                 <div className="md:hidden bg-black border-t border-slate-800">
                     <ul className="flex flex-col text-center py-6 gap-6">
-                        {["About", "Skills", "Projects", "Education", "Achievements", "Contact"].map(item => (
+                        {["About", "Skills", "Projects", "Certifications", "Education", "Achievements", "Contact"].map(item => (
                             <li key={item}>
                                 <a
                                     href={`#${item.toLowerCase()}`}
