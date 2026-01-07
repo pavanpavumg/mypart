@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Send, FileText } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
 
 export default function Contact() {
     const form = useRef();
@@ -119,15 +119,7 @@ export default function Contact() {
                                 <Linkedin size={24} />
                                 <span className="font-semibold">LinkedIn</span>
                             </a>
-                            <a
-                                href="/resume.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-2 p-3 bg-blue-600 rounded-lg hover:bg-blue-700 text-white transition shadow-lg shadow-blue-600/20"
-                            >
-                                <FileText size={24} />
-                                <span className="font-semibold">Resume</span>
-                            </a>
+
                         </div>
                     </div>
 

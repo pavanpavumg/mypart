@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import profilePic from '../assets/profile.jpg';
 
-export default function Hero() {
+export default function Hero({ setShowResume }) {
     const [text] = useTypewriter({
         words: [
             "Full-Stack Developer",
@@ -70,12 +70,13 @@ export default function Hero() {
                         >
                             View Projects
                         </a>
-                        <a
-                            href="/Pavan_Resume.pdf"
-                            className="border border-blue-500 px-6 py-2 rounded text-blue-400 hover:bg-blue-500 hover:text-white"
+                        <button
+                            onClick={() => setShowResume(true)}
+                            className="border border-blue-500 px-6 py-2 rounded text-blue-400 hover:bg-blue-500 hover:text-white transition"
                         >
-                            Download Resume
-                        </a>
+                            View Resume
+                        </button>
+
                     </div>
                 </div>
             </motion.div>
