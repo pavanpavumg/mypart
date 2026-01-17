@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "../assets/logo.png";
 
 export default function Navbar({ setShowResume }) {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +23,10 @@ export default function Navbar({ setShowResume }) {
         <nav className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur 
                     text-white z-50">
             <div className="container-custom flex justify-between items-center h-16">
-                <h1 className="font-bold text-xl text-blue-500">Pavan M G</h1>
+                <div className="flex items-center gap-2">
+                    <img src={logo} alt="Pavan M G Logo" className="h-10 w-10 object-contain" />
+                    <h1 className="font-bold text-xl text-blue-500">Pavan M G</h1>
+                </div>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8">
